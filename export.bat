@@ -1,0 +1,1 @@
+curl -X POST "%1/v1/blm/export" -H "accept: application/json" -H "X-Authorization:%2" -H "Content-Type: application/json" -d "{ \"packageName\": \"packagename\", \"selectedFileIds\": [ 70 ], \"fileIds\": [ 70 ], \"excludeMetaBots\": false}" -o C:\\Users\\Nafis Keshwani\\OneDrive - Automation Anywhere\\Desktop\\Clients\\Aetna\\Aetna\\BLMexportedPackage.aapkg
