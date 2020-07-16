@@ -1,1 +1,1 @@
-curl -X POST "%1/v1/blm/export" -H "accept: application/json" -H "X-Authorization:%2" -H "Content-Type: application/json" -d "{ \"packageName\": \"packagename\", \"selectedFileIds\": [ %3 ], \"fileIds\": [ %3 ], \"excludeMetaBots\": false}" -o %4
+curl -X POST "%1/v1/blm/export" -H "accept: application/json" -H "X-Authorization:%2" -H "Content-Type: application/json" -d "{ \"packageName\": \"string\", \"selectedFileIds\": [%3], \"fileIds\": [%3], \"excludeMetaBots\": false}" -o %4
